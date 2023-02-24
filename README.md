@@ -1,6 +1,50 @@
-# Getting Started with Create React App
+# Social Media Application 
+
+In this description, we will be looking at a front end webpage built using ReactJS and Tailwind.css for a social media app. The app allows users to share posts, images, and other media with their friends and followers.
+
+## User Interface
+
+The user interface for the social media app built using ReactJS is designed to be simple, intuitive, and user-friendly. The main screen of the app displays a feed of posts from users that the current user is following. The feed is updated in real-time using websockets, allowing users to stay up-to-date with the latest content from their friends and followers.
+
+The app's header contains a search bar, allowing users to search for posts and other content based on keywords or hashtags. The header also displays the user's profile picture, name, and a dropdown menu containing options such as "settings" and "logout."
+
+The main content area of the app is divided into several sections. The left-hand side of the screen displays a list of the user's friends and followers, as well as suggested users to follow. Clicking on a user's name or profile picture opens their profile page.
+
+The main content area also contains a section for creating new posts. Users can upload images or other media, write a caption, and tag other users or add hashtags. Posts can be shared publicly or with a select group of friends.
+
+### Log in 
+
+![Screenshot from 2023-02-23 14-39-28](https://user-images.githubusercontent.com/54447234/221171725-45da692d-eca4-419a-b7f9-7da0a2714698.png)
+
+### Sign up 
+
+![Screenshot from 2023-02-23 14-40-03](https://user-images.githubusercontent.com/54447234/221171766-14bea06b-5e20-4045-be13-1b443809c023.png)
+
+### Main Layout
+
+![Screenshot from 2023-02-23 14-41-48](https://user-images.githubusercontent.com/54447234/221171792-1aa03344-3c06-4242-ab4b-af06564ed5c1.png)
+
+
+
+
+# Getting Started with Social Media Front End App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Setup up React Project
+
+```sh
+npx create-react-app <my-app>
+cd <my-app>
+npm start
+```
+## Install React Unicons 
+
+```sh 
+npm install --save @iconscout/react-unicons
+```
+
+Delete the current project directory created, and replace them with the files and folders of this repository.  
 
 ## Available Scripts
 
@@ -14,30 +58,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
@@ -45,26 +65,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To checkout more icons, you can visit [React Unicons](https://www.npmjs.com/package/@iconscout/react-unicons)
